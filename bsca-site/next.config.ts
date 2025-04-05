@@ -1,10 +1,13 @@
-/** @type {import('next').NextConfig} */
+// next.config.ts
+
 const nextConfig = {
-  // Add your config here
   reactStrictMode: true,
   experimental: {
     appDir: true,
   },
+  images: {
+    domains: ['res.cloudinary.com'], // Allow Unsplash for external images
+  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
