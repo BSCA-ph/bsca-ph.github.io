@@ -23,7 +23,6 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2">
           {/* Replace this with your logo file */}
-          <Image src="/bscalogo.svg" alt="BSCA Logo" width={40} height={40} />
           <span className="text-2xl font-semibold tracking-wide">BSCA</span>
         </Link>
 
